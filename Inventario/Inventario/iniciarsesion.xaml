@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inventario.iniciarsesion">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label  Text="Bienvenidos Inviaguas"></Label>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Documento"></Label>
+                <Entry Placeholder="Ingrese su numero de documento"></Entry>
+            </StackLayout>
+            <StackLayout >
+                <Label Text="Contraseña"></Label>
+                <Entry Placeholder="Ingrese su contraseña"></Entry>
+            </StackLayout>
+            <StackLayout>
+                <Button Text="Iniciar sesion"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
